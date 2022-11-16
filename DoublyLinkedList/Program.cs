@@ -126,6 +126,13 @@ namespace DoublyLinkedList
                 }
             }
         }
+        public bool listEmpty()
+        {
+            if (START == null)
+                return true;
+            else
+                return false;
+        }
     }
     internal class Program
     {
